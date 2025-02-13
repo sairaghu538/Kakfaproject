@@ -19,7 +19,7 @@ EXEC sys.sp_cdc_enable_table
 
 SELECT * FROM sys.sp_cdc_help_change_data_capture;
 
--- Step 3: Insert 10 Records into the Users Table
+-- Step 3: Insert 10 Records into the Users Table--sql
 INSERT INTO Users (FirstName, LastName, Email, DateOfBirth)
 VALUES 
 ('John', 'Doe', 'john.doe@example.com', '1990-01-01'),
